@@ -1,0 +1,29 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+HTTP1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. It sends messages as plain text.
+HTTP2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.HTTP2 encodes messages into binary data and arranges them carefully. This implies that HTTP2 can have various delivery models. Most of the time, a client's initial response in return for an HTTP GET request is not the fully-loaded page.
+
+Write a blog about objects and its internal representation in Javascript
+ Objects are collections of key-value pairs, where keys are strings (or symbols) and values can be of any data type, including other objects. Objects are used to represent real-world entities, data structures, and more complex data types.
+An object literal is a list of property names:values inside curly braces {}.
+
+Read about IP address, port, HTTP methods, MAC address
+
+An Internet Protocol (IP) address is the unique identifying number assigned to every device connected to the internet.
+All the computers of the world on the Internet network communicate with each other with underground or underwater cables or wirelessly. If I want to download a file from the internet or load a web page or literally do anything related to the internet, my computer must have an address so that other computers can find and locate mine in order to deliver that particular file or webpage that I am requesting. In technical terms, that address is called IP Address or Internet Protocol Address.	
+
+The Hypertext Transfer Protocol (HTTP) is designed to enable communications between clients and servers.
+HTTP works as a request-response protocol between a client and server.	
+HTTP Methods :
+GET
+POST
+PUT
+HEAD
+DELETE
+PATCH
+OPTIONS
+CONNECT
+TRACE
+To communicate or transfer data from one computer to another, we need an address. In computer networks, various types of addresses are introduced; each works at a different layer. A MAC address, which stands for Media Access Control Address, is a physical address that works at the Data Link Layer.MAC Address is worldwide unique since millions of network devices exist and we need to uniquely identify each. MAC Address is a 12-digit hexadecimal number (6-bit binary number), which is mostly represented by Colon-Hexadecimal notation.
+
+
+
