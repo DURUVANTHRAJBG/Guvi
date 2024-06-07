@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Employee Information</legend>
+
+            <!-- Text Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="name">
+            <br>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="example@gmail.com">
+            <br>
+
+            <!-- Password Input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="defaultpassword">
+            <br>
+
+            <!-- Checkbox -->
+            <label>
+                <input type="checkbox" name="newsletter" checked>
+                Subscribe to newsletter
+            </label>
+            <br>
+
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>Employee Type</legend>
+                <label>
+                    <input type="radio" name="employeeType" value="salaried" checked>
+                    Salaried
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="employeeType" value="ownBusiness">
+                    Own Business
+                </label>
+            </fieldset>
+            <br>
+
+            <!-- Select Menu -->
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="hr">HR</option>
+                <option value="it" selected>IT</option>
+                <option value="finance">Finance</option>
+            </select>
+            <br>
+
+            <!-- Text Area -->
+            <label for="notes">Notes:</label>
+            <br>
+            <textarea id="notes" name="notes" rows="4" cols="50">These are some default notes.</textarea>
+            <br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
